@@ -10,7 +10,7 @@
 #import <memory>
 
 #import <React/RCTCxxModule.h>
-#import <jsireact/RCTTurboModule.h>
+#import <turbomodule/RCTTurboModule.h>
 
 #import "NativeSampleTurboCxxModuleSpecJSI.h"
 
