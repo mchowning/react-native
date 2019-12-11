@@ -78,7 +78,7 @@ public class ReactTextInputShadowNode extends ReactBaseTextShadowNode
     // of Android), and it cannot be changed.
     // So, we have to enforce it as a default padding.
     // TODO #7120264: Cache this stuff better.
-    EditText editText = new EditText(getThemedContext());
+    EditText editText = new EditText(getThemedContext(), null, 0);
     setDefaultPadding(Spacing.START, ViewCompat.getPaddingStart(editText));
     setDefaultPadding(Spacing.TOP, editText.getPaddingTop());
     setDefaultPadding(Spacing.END, ViewCompat.getPaddingEnd(editText));
